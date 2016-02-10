@@ -61,3 +61,5 @@ C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\Angu
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\obj\Debug\AngularMVC_Api.csprojResolveAssemblyReference.cache
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\obj\Debug\AngularMVC_Api.dll
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\obj\Debug\AngularMVC_Api.pdb
+C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\log4net.dll
+C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\log4net.xml
