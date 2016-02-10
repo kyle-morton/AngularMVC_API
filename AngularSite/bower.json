@@ -1,0 +1,11 @@
+{
+  "name": "AngularSite",
+  "homepage": "https://github.com/kylemorton5770/AngularMVC_API",
+  "authors": [
+    "kylemorton5770 <michael.morton@smail.astate.edu>"
+  ],
+  "description": "",
+  "main": "bower.json",
+  "moduleType": [],
+  "license": "MIT"
+}
