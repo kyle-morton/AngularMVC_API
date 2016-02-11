@@ -1,4 +1,4 @@
-var AngularWebApp = angular.module('AngularWebApp', ['ngRoute']);
+var AngularWebApp = angular.module('AngularWebApp', ['ngRoute', 'ngCookies']);
 AngularWebApp.controller('BaseController', BaseController);
 AngularWebApp.controller('LoginController', LoginController);
 AngularWebApp.controller('RegisterController', RegisterController);

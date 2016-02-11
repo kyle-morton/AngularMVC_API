@@ -5,7 +5,8 @@ var GetValuesFactory = function($http, $q, SessionService){
         $http({
             method: 'GET',
             url: SessionService.apiUrl + '/api/Values',
-            headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SessionService.token}
+            headers: {'Content-Type': 'application/json', 
+            'Authorization': 'Bearer ' + SessionService.getToken()}
         })
         .success(function(response){
             result.resolve(response);

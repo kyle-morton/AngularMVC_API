@@ -8,7 +8,8 @@ var LoginController = function($scope, $location, LoginFactory, SessionService){
     $scope.login = function(){
         LoginFactory($scope.loginForm.username, $scope.loginForm.password)
         .then(function(response){
-            SessionService.token = response.access_token;
+            // SessionService.token = response.access_token;
+            SessionService.setToken(response.access_token);
             $location.path('/');
         }, function(response){
             if (!(response === undefined || response === null)){
