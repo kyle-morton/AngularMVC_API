@@ -11,6 +11,7 @@
 
 <a href="/#/login" ng-if="!loggedIn()">Login</a>
 <a href="/#/register" ng-if="!loggedIn()">Register</a>
+<a href="" ng-if="loggedIn()" ng-click="logout()">Logout</a>
 
 <span class="label label-success" ng-if="loggedIn()">Logged In</span>
 

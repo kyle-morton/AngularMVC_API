@@ -4,5 +4,9 @@ var BaseController = function($scope, SessionService){
     $scope.loggedIn = function(){
         return SessionService.token !== undefined;
     }
+    
+    $scope.logout = function(){
+        SessionService.token = undefined;
+    }
 }
 BaseController.$inject = ['$scope', 'SessionService'];

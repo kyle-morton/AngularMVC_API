@@ -17,5 +17,6 @@ var LoginController = function($scope, $location, LoginFactory, SessionService){
                 
         });
     }
+    
 }
 LoginController.$inject = ['$scope', '$location', 'LoginFactory', 'SessionService'];

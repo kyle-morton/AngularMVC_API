@@ -63,3 +63,6 @@ C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\Angu
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\obj\Debug\AngularMVC_Api.pdb
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\log4net.dll
 C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\log4net.xml
+C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\Microsoft.Owin.Cors.dll
+C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\System.Web.Cors.dll
+C:\Users\kmorton.WEHCO\Documents\Visual Studio 2013\Projects\AngularMVC_API\AngularMVC_Api\bin\Microsoft.Owin.Cors.xml
