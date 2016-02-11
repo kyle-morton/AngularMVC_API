@@ -1,7 +1,13 @@
-<button ng-click="getValues()">Get Values</button>
+<div class="center-form">
 
-<ul class="nav nav-pills" ng-if="values.length > 0">
-    <li ng-repeat="value in values">{{value}}<li>
-</ul>
+    <button ng-click="getValues()" class="btn btn-success center-block">Get Values</button>
+    <br>
+    <div ng-if="values.length > 0">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="value in values"><p>{{value}}</p><li>
+        </ul>
+    </div>
+    
+    <p class="help-block" ng-if="error.message">{{error.message}}</p>
 
-<p class="help-block" ng-if="error.message">{{error.message}}</p>
+</div>
