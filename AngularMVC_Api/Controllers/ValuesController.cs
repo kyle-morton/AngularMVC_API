@@ -11,6 +11,7 @@ namespace AngularMVC_Api.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        [Authorize(Roles="SuperAdmin")]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
