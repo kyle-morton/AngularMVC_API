@@ -2,7 +2,7 @@ var LoginController = function($scope, $location, LoginFactory, SessionService){
     $scope.loginForm = {
         username: undefined,
         password: undefined, 
-        errorMessage: undefined
+        errorMessage: ''
     };
     
     $scope.login = function(){
@@ -11,7 +11,10 @@ var LoginController = function($scope, $location, LoginFactory, SessionService){
             SessionService.token = response.access_token;
             $location.path('/');
         }, function(response){
-            $scope.loginForm.errorMessage = response.error_description;
+            if (!(response === undefined || response === null)){
+                $scope.loginForm.errorMessage = response.error_description;
+            }
+                
         });
     }
 }
