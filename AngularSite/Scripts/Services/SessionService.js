@@ -1,3 +1,3 @@
-var AuthenticationService = function(){
+var SessionService = function(){
     this.token = undefined;
 }
