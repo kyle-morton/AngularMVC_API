@@ -12,6 +12,7 @@
 <a href="/#/login" ng-if="!loggedIn()">Login</a>
 <a href="/#/register" ng-if="!loggedIn()">Register</a>
 <a href="" ng-if="loggedIn()" ng-click="logout()">Logout</a>
+<a href="/#/values">Values</a>
 
 <span class="label label-success" ng-if="loggedIn()">Logged In</span>
 
@@ -23,9 +24,11 @@
 <script src="/Scripts/Controllers/BaseController.js"></script>
 <script src="/Scripts/Controllers/LoginController.js"></script>
 <script src="/Scripts/Controllers/RegisterController.js"></script>
+<script src="/Scripts/Controllers/ValuesController.js"></script>
 <script src="/Scripts/Services/SessionService.js"></script>
 <script src="/Scripts/Factories/LoginFactory.js"></script>
 <script src="/Scripts/Factories/RegisterFactory.js"></script>
+<script src="/Scripts/Factories/GetValuesFactory.js"></script>
 <script src="/Scripts/AngularWebApp.js"></script>
 </body>
 

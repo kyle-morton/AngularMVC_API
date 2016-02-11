@@ -2,9 +2,11 @@ var AngularWebApp = angular.module('AngularWebApp', ['ngRoute']);
 AngularWebApp.controller('BaseController', BaseController);
 AngularWebApp.controller('LoginController', LoginController);
 AngularWebApp.controller('RegisterController', RegisterController);
+AngularWebApp.controller('ValuesController', ValuesController);
 AngularWebApp.service('SessionService', SessionService);
 AngularWebApp.factory('LoginFactory', LoginFactory);
 AngularWebApp.factory('RegisterFactory', RegisterFactory);
+AngularWebApp.factory('GetValuesFactory', GetValuesFactory);
 
 var ConfigFunction = function($routeProvider) {
   $routeProvider
@@ -15,6 +17,10 @@ var ConfigFunction = function($routeProvider) {
   .when('/register', {
     templateUrl: 'views/register.html',
     controller: 'RegisterController'
+  })
+  .when('/values',{
+    templateUrl: 'views/values.html',
+    controller: 'ValuesController'
   });
 };
 ConfigFunction.$inject = ['$routeProvider'];
